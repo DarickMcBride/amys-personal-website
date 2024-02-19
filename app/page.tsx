@@ -1,5 +1,4 @@
 import Image from "next/image";
-import SkillsList from "./components/SkillsList";
 import myImage from "../public/amy-mcbride.jpeg";
 import image1 from "../public/africa.jpeg";
 import image2 from "../public/lake.jpeg";
@@ -41,7 +40,7 @@ export default function AboutPage() {
             </span>
             , hailing from the sunny city of Folsom, CA, alongside my wonderful
             husband{" "}
-            <a href="www.darickmcbride.com" className="text-accent">
+            <a href="htttps://www.darickmcbride.com" className="text-accent">
               Darick McBride
             </a>{" "}
             and our beloved dog, Pixel. As a graduate of UC Davis with a degree
