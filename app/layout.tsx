@@ -22,8 +22,8 @@ export default function RootLayout({
         <Providers>
           <AppBar />
 
-          <main className=" flex items-center justify-center  overflow-y-auto">
-            <div className="max-w-sm mx-8 pt-20 pb-10 sm:max-w-screen-lg z-10">
+          <main className=" flex items-center justify-center overflow-y-auto">
+            <div className="max-w-sm mx-8 pt-20 pb-10 sm:max-w-screen-lg">
               {children}
             </div>
           </main>

@@ -105,24 +105,24 @@ export default function AboutPage() {
             professionally.
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-5 pt-5 ">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 pt-4">
           <Image
             src={image1}
-            className="max-w-md max-h-80"
+            className="w-full max-w-md h-60"
             alt="Africa"
             width={0}
             height={0}
           />
           <Image
             src={image2}
-            className="max-w-md max-h-80"
+            className="w-full max-w-md h-60"
             alt="Lake"
             width={0}
             height={0}
           />
           <Image
             src={image3}
-            className="max-w-md max-h-80"
+            className="w-full max-w-md h-60"
             alt="San Diego"
             width={0}
             height={0}
