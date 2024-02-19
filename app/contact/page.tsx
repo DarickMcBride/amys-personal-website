@@ -15,7 +15,7 @@ export default function ContactPage() {
           <dd>
             Feel free to reach out to me via email at{" "}
             <a
-              className="text-info hover:underline hover:text-secondary"
+              className="text-accent hover:underline hover:text-secondary"
               href="mailto:contactme@amymcbride.com"
             >
               contactme@amymcbride.com
@@ -29,7 +29,7 @@ export default function ContactPage() {
           <dd>
             You can also connect with me on LinkedIn. Visit my LinkedIn profile{" "}
             <a
-              className="text-info hover:underline hover:text-secondary"
+              className="text-accent hover:underline hover:text-secondary"
               href="https://www.linkedin.com/in/amy-naumovski-mcbride"
               target="_blank"
               rel="noopener noreferrer"
