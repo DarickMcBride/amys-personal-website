@@ -40,7 +40,12 @@ export default function AboutPage() {
             </span>
             , hailing from the sunny city of Folsom, CA, alongside my wonderful
             husband{" "}
-            <a href="https://www.darickmcbride.com" className="text-accent">
+            <a
+              href="https://www.darickmcbride.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent"
+            >
               Darick McBride
             </a>{" "}
             and our beloved dog, Pixel. As a graduate of UC Davis with a degree
