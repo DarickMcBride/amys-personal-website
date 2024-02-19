@@ -90,7 +90,7 @@ export default function AboutPage() {
             discovery are constants in my life.
           </p>
           <p>
-            The adventures continue with my husband and I's passion for the
+            The adventures continue with my husband and I&apos;s passion for the
             great outdoors, whether we&apos;re hiking with Pixel by our side,
             camping in our trusty pop-up camper, or gliding across serene waters
             on our paddleboards. When we&apos;re not exploring nature, you can

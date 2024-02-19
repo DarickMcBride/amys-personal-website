@@ -42,15 +42,7 @@ export default function DropDownMenu() {
             HOME
           </Link>
         </li>
-        <li>
-          <Link
-            href="/about"
-            onClick={handleClick}
-            className={`${path === "/about" && "text-primary"}`}
-          >
-            ABOUT ME
-          </Link>
-        </li>
+
         <li>
           <Link
             href="/contact"
