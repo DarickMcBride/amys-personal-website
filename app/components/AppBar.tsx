@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import ThemeToggle from "./ThemeToggle";
 import Link from "next/link";
 import DropDownMenu from "./DropDownMenu";
 
@@ -52,9 +51,7 @@ export default function AppBar() {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <ThemeToggle />
-      </div>
+
     </header>
   );
 }

@@ -1,4 +1,4 @@
-import { FaEnvelope, FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaFilePdf } from "react-icons/fa";
 import Link from "next/link";
 
 export default function ContactButtons() {

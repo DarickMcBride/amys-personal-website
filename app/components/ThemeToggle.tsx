@@ -8,7 +8,7 @@ export default function ThemeToggle() {
   // set default theme to night
   useEffect(() => {
     if (!theme) {
-      setTheme("night");
+      setTheme("cupcake");
     }
   }, [theme, setTheme]);
 
@@ -19,7 +19,7 @@ export default function ThemeToggle() {
         type="checkbox"
         className="theme-controller"
         value={theme}
-        onClick={() => setTheme(theme === "light" ? "night" : "light")}
+        onClick={() => setTheme(theme === "cupcake" ? "night" : "cupcake")}
       />
 
       {/* sun icon */}

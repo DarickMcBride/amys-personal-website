@@ -40,14 +40,12 @@ export default function ContactPage() {
             Don&apos;t hesitate to send a connection request or a direct
             message, and I&apos;ll be sure to respond.
           </dd>
-          <dt className="text-secondary font-semibold text-lg">GitHub:</dt>
-
         </dl>
         <ContactButtons />
         <p className="pt-2">
           I&apos;m looking forward to hearing from you and engaging in
           meaningful conversations. Whether it&apos;s about career
-          opportunities, tech discussions, or just a friendly chat, let&apos;s
+          opportunities, education discussions, or just a friendly chat, let&apos;s
           connect!
         </p>
       </div>

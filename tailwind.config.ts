@@ -21,18 +21,7 @@ const config: Config = {
     },
   },
   daisyui: {
-    themes: [
-      {
-        light: {
-          ...require("daisyui/src/theming/themes")["light"],
-          primary: "#2703c7",
-          secondary: "#037fc7",
-          accent: "rgb(228,121,178)",
-          info: "#8903c7",
-        },
-      },
-      "night",
-    ],
+    themes: ["cupcake", "night"],
   },
   plugins: [require("daisyui")],
 };
