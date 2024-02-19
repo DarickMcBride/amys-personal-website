@@ -1,111 +1,75 @@
-import { FaGithub } from "react-icons/fa";
+import Image from "next/image";
+import SkillsList from "./components/SkillsList";
+import myImage from "../public/amy-mcbride.jpeg";
 
-export default function Home() {
+export default function AboutPage() {
+  const yearsSince = () => {
+    const startYear = 2018;
+    const startMonth = 2;
+    const startDate = new Date(startYear, startMonth);
+    const currentDate = new Date();
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+    if (
+      currentDate.getMonth() < startDate.getMonth() ||
+      (currentDate.getMonth() === startDate.getMonth() &&
+        currentDate.getDate() < startDate.getDate())
+    ) {
+      years--;
+    }
+    return years;
+  };
+
   return (
-    <div className="flex  flex-col items-center z-10">
-      <h1 className={`text-primary text-2xl font-bold p-4 `}>WELCOME</h1>
-      <div className="space-y-3">
-        <p>
-          I firmly believe in leveraging the power of technology to create
-          engaging and dynamic online experiences. My website is built on a
-          robust and modern technology stack that combines the best tools and
-          frameworks to deliver a seamless and visually appealing user
-          experience. Here&apos;s a closer look at the technologies I&apos;ve
-          used to craft this site:
-        </p>
-        <dl className="space-y-2">
-          <dt className="text-secondary font-semibold text-lg">React</dt>
-          <dd>
-            At the heart of my website is React, a popular JavaScript library
-            for building user interfaces. React allows me to create interactive
-            and responsive web applications that provide a smooth and enjoyable
-            browsing experience. It&apos;s the foundation of my website&apos;s
-            frontend, enabling me to build complex UI components and manage
-            state efficiently.
-          </dd>
-          <dt className="text-secondary font-semibold text-lg">
-            Next.js (App Router)
-          </dt>
-          <dd>
-            I&apos;ve leveraged Next.js, a powerful framework built on top of
-            React, to enhance the performance and SEO-friendliness of my
-            website. Next.js enables server-side rendering, automatic code
-            splitting, and simplified routing, all of which contribute to faster
-            load times and a better overall user experience.
-          </dd>
-          <dt className="text-secondary font-semibold text-semibold text-lg">
-            Tailwind CSS and daisyUI
-          </dt>
-          <dd>
-            For styling my website, I&apos;ve chosen Tailwind CSS and daisyUI.
-            Tailwind CSS is a utility-first CSS framework that allows for highly
-            customizable designs with a low-level, component-friendly approach.
-            It promotes consistency, productivity and maintainability across the
-            project. daisyUI is a plugin for Tailwind CSS that provides
-            beautiful UI components, making it easier to build a consistent and
-            visually appealing interface. Together, they offer a powerful
-            combination for creating unique, responsive, and user-friendly
-            designs.
-          </dd>
-          <dt className="text-secondary font-semibold text-semibold text-lg">
-            TypeScript
-          </dt>
-          <dd>
-            I take code quality seriously, and that&apos;s why I&apos;ve
-            implemented TypeScript in my development process. TypeScript is a
-            statically typed superset of JavaScript, which helps catch errors
-            during development and enhances code maintainability and
-            scalability. It ensures that my codebase remains clean, readable,
-            and reliable.
-          </dd>
-          <dt className="text-secondary font-semibold text-lg">
-            GitHub Copilot
-          </dt>
-          <dd>
-            I&apos;ve integrated GitHub Copilot into my development workflow to
-            streamline and enhance my code. Copilot provides intelligent code
-            suggestions and automation, making coding more efficient and helping
-            me deliver high-quality code faster.
-          </dd>
-        </dl>
-        <div className="divider divider-secondary mx-[20%] py-4"></div>
-        <p>
-          My technology stack represents my commitment to delivering a
-          high-quality, performant, and visually pleasing website. By using
-          React, Next.js, Tailwind CSS, daisyUI, TypeScript, I&apos;ve created a
-          platform that not only showcases my content effectively but also
-          provides a delightful user experience. I continuously update and
-          optimize my technology stack to ensure that my website remains at the
-          forefront of web development standards.
-        </p>
-        <p>
-          Thank you for visiting my website and for taking an interest in the
-          the technologies behind it. I&apos;m dedicated to staying at the
-          cutting edge of web development, and I hope you enjoy your experience
-          here. If you have any questions or feedback, feel free to get in touch
-          with me! You can find the source code for this website on my github at
-          the link below.
-        </p>
-      </div>
-      <div className="text-center py-4">
-        <a
-          className="sm:hidden"
-          href="https://github.com/DarickMcBride"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub
-            className="btn btn-circle btn-ghost text-primary"
-            size={32}
-          />
-        </a>
-        <a
-          className="btn btn-primary hidden sm:flex"
-          href="https://github.com/DarickMcBride"
-        >
-          GitHub
-          <FaGithub className="h-6 w-6" />
-        </a>
+    <div className="flex flex-col items-center">
+      <h1 className="text-primary text-2xl p-4 font-bold">ABOUT ME</h1>
+      <div>
+        <Image
+          src={myImage}
+          className="mx-auto max-w-xs rounded-lg shadow-2xl md:float-left md:mr-4 mb-4"
+          alt="Picture of Amy McBride"
+          width={0}
+          height={0}
+        />
+        <div className="space-y-3">
+          <p>
+            Welcome to my corner of the web! I&apos;m{" "}
+            <span className="text-secondary font-semibold">
+              Amy Naumovski McBride
+            </span>
+            , hailing from the sunny city of Folsom, CA, alongside my wonderful
+            husband{" "}
+            <a href="www.darickmcbride.com" className="text-accent">
+              Darick McBride
+            </a>{" "}
+            and our beloved dog, Pixel. As a graduate of UC Davis with a degree
+            in Civil Engineering, my journey into the world of water resources
+            began with a single fluids class that ignited my passion for the
+            subject. Though I initially aimed to dive headfirst into the water
+            resources field upon graduation, life had other plans when my
+            father&apos;s health became a priority.
+          </p>
+          <p>
+            In a twist of fate, I found myself drawn to STEM education, inspired
+            by the dedicated educators who instilled in me a love for
+            mathematics during my own schooling. For the past six years,
+            I&apos;ve dedicated myself to teaching math and actively
+            participating in school initiatives, cherishing the opportunity to
+            share the joy of numbers with my students.
+          </p>
+          <p>
+            Now, I&apos;m embarking on a new chapter as I make the pivot back to
+            engineering, eager to merge my expertise in education with my
+            engineering background. My husband and I share a passion for the
+            great outdoors, whether we&apos;re hiking with Pixel by our side,
+            camping in our trusty pop-up camper, or gliding across serene waters
+            on our paddleboards. When we&apos;re not exploring nature, you can
+            find us engaging in weekly puzzle nights and trivia challenges with
+            friends—because I&apos;m always on the lookout for the next puzzle
+            to solve or problem to tackle. Join me on this exciting journey as I
+            blend my love for education and engineering into a unique skill set
+            ready to make waves in the field.
+          </p>
+        </div>
       </div>
     </div>
   );

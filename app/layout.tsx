@@ -6,9 +6,9 @@ import AppBar from "./components/AppBar";
 import Background from "./components/Background";
 
 export const metadata: Metadata = {
-  title: "Darick McBride - Software Developer",
+  title: "Amy Naumovski McBride, EIT",
   description:
-    "This is a personal website for Darick McBride, a software developer based in the United States. Here you can learn more about Darick, his skills, and his projects. You can also get in touch with him to discuss opportunities or collaborations.",
+    "This is a personal website for Amy Naumovski McBride, an engineer and educator based in California. Here you can learn more about Amy, her skills and her passions. You can also get in touch with her to discuss opportunities or collaborations.",
 };
 
 export default function RootLayout({

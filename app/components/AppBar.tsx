@@ -38,17 +38,7 @@ export default function AppBar() {
               HOME
             </Link>
           </li>
-          <li>
-            <Link
-              href="/about"
-              className={`active:text-primary border-b-4 border-transparent ${
-                path === "/about" &&
-                "!text-primary !border-primary cursor-pointer pb-2"
-              }`}
-            >
-              ABOUT ME
-            </Link>
-          </li>
+
           <li>
             <Link
               href="/contact"
