@@ -78,10 +78,8 @@ export default function AboutPage() {
             immersed in various hobbies and interests that fuel my passion for
             life. Traveling holds a special place in my heart, a passion
             instilled by my father, an immigrant from Macedonia who journeyed to
-            the United States in pursuit of a better life. His stories of
-            adventure and exploration fueled my own desire to see the world.
-            Over the years, I&apos;ve had the privilege of visiting over 18
-            countries, each one leaving an indelible mark on my soul. From the
+            the United States in pursuit of a better life. Over the years,
+            I&apos;ve had the privilege of visiting over 18 countries. From the
             bustling streets of Paris to the beautiful beaches of Greece, every
             destination has enriched my perspective and deepened my appreciation
             for diversity. One of the most unforgettable experiences was
@@ -89,24 +87,21 @@ export default function AboutPage() {
             exemplified my zest for life and willingness to embrace the unknown.
             Whether I&apos;m traversing distant lands or immersing myself in a
             new professional endeavor, this insatiable curiosity and passion for
-            discovery are constants in my life, guiding me on adventures both
-            near and far.
+            discovery are constants in my life.
           </p>
           <p>
-            My husband and I share a passion for the great outdoors, whether
-            we&apos;re hiking with Pixel by our side, camping in our trusty
-            pop-up camper, or gliding across serene waters on our paddleboards.
-            When we&apos;re not exploring nature, you can find us engaging in
-            weekly puzzle nights and trivia challenges with friends—because
-            I&apos;m always on the lookout for the next puzzle to solve or
-            problem to tackle. Join me on this exciting journey as I blend my
-            love for education and engineering into a unique skill set ready to
-            make waves in the field. This zest for life infuses everything I do,
-            propelling me forward as I continue to embrace new opportunities and
-            experiences with open arms. As I embark on this next chapter,
-            I&apos;m excited to see where this journey takes me and to continue
-            pushing the boundaries of what&apos;s possible, both personally and
-            professionally.
+            The adventures continue with my husband and I's passion for the
+            great outdoors, whether we&apos;re hiking with Pixel by our side,
+            camping in our trusty pop-up camper, or gliding across serene waters
+            on our paddleboards. When we&apos;re not exploring nature, you can
+            find us engaging in weekly puzzle nights and trivia challenges with
+            friends—because I&apos;m always on the lookout for the next puzzle
+            to solve or problem to tackle.
+          </p>
+          <p>
+            Join me on this exciting journey as I blend my love for education
+            and engineering into a unique skill set ready to make waves in the
+            field.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-4 pt-4">
