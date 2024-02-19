@@ -99,9 +99,9 @@ export default function AboutPage() {
             love for education and engineering into a unique skill set ready to
             make waves in the field. This zest for life infuses everything I do,
             propelling me forward as I continue to embrace new opportunities and
-            experiences with open arms. As I embark on this next chapter, I'm
-            excited to see where this journey takes me and to continue pushing
-            the boundaries of what&apos;s possible, both personally and
+            experiences with open arms. As I embark on this next chapter,
+            I&apos;m excited to see where this journey takes me and to continue
+            pushing the boundaries of what&apos;s possible, both personally and
             professionally.
           </p>
         </div>
